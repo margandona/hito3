@@ -1,0 +1,25 @@
+{
+  "name": "hito3",
+  "version": "1.0.0",
+  "description": "Backend en Node.js para pruebas del Hito 3",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watchAll",
+    "lint": "eslint ."
+  },
+  "keywords": ["node", "express", "jest", "backend", "testing"],
+  "author": "Tu Nombre",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0",
+    "nodemon": "^3.0.0",
+    "eslint": "^8.49.0"
+  }
+}
